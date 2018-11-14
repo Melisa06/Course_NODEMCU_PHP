@@ -18,7 +18,7 @@ $temp = $_POST['temp'];
 $luz = $_POST['luz'];
 $mov = $_POST['mov'];
 $sql = "INSERT INTO Your_table(variables)
-VALUES ('$', '$', '$','$', now())";
+VALUES ('$temp', '$hum', '$mov','$luz', now())";
 
 if ($temp!= null || $hum!= null || $luz!= null || $mov!= null) {
 	# code...	
