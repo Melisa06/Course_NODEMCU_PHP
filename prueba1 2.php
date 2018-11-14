@@ -1,9 +1,9 @@
 <meta charset="utf-8">
 <?php
 $servername = "localhost";
-$username = "variables";
-$password = "variables01";
-$dbname = "variables";
+$username = "...";
+$password = "..";
+$dbname = "..";
 
 
 // Create connection
@@ -17,8 +17,8 @@ $hum = $_POST['hum'];
 $temp = $_POST['temp'];
 $luz = $_POST['luz'];
 $mov = $_POST['mov'];
-$sql = "INSERT INTO yellow (temp,hum, mov, luz, fecha)
-VALUES ('$temp', '$hum', '$mov','$luz', now())";
+$sql = "INSERT INTO Your_table(variables)
+VALUES ('$', '$', '$','$', now())";
 
 if ($temp!= null || $hum!= null || $luz!= null || $mov!= null) {
 	# code...	
