@@ -6,11 +6,11 @@
 #include <ESP8266HTTPClient.h>
 
 /* Set these to your desired credentials. */
-const char *ssid = "Intel-IoT";  //ENTER YOUR WIFI SETTINGS
-const char *password = "1N73RN37D3L45C0545";
+const char *ssid = "";  //ENTER YOUR WIFI SETTINGS
+const char *password = "";
 
 //Web/Server address to read/write from 
-const char *host = "172.31.150.237";   //https://circuits4you.com website or IP address of server
+const char *host = "";   //https://circuits4you.com website or IP address of server
 
 //=======================================================================
 //                    Power on setup
