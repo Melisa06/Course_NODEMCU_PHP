@@ -61,7 +61,7 @@ void loop() {
 postData = "temp="  + temp  +  "&hum="  + hum +  "&mov="   + mov +  "&luz="  + luz;
  //postData = "$temp=12,$hum=65,$mov=59,$lum=78";
   
-  http.begin("http://cidtai.uteq.edu.mx/intel/iot/variables/Pruebas1/prueba1.php");              //Specify request destination
+  http.begin("");              //Specify request destination
  http.addHeader("Content-Type", "application/x-www-form-urlencoded");    //Specify content-type header
   //http.addHeader("Content-Type", "text/plain");    //Specify content-type header
    
