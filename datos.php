@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <?php
 //Realizamos de nuevo la conexión al servidor de la base de datos 
-$conn = new mysqli("localhost", "variables", "variables01", "variables") or die("error de conexion " .mysql_error());
+$conn = new mysqli("localhost", "", "", "") or die("error de conexion " .mysql_error());
 /*
 En caso de que la conexión no haya sido realizada va a mostrar un error y se mostrará en la pagina web. 
 */
